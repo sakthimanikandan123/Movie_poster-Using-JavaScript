@@ -1,0 +1,50 @@
+.search-con
+{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+.search-con input{
+    border: none;
+    background-color: rgb(235, 227, 227);
+    height: 35px;
+    width: 350px;
+}
+.search-con input::placeholder
+{
+    padding: 10px;
+    color: grey;
+}
+.search-con button{
+    background-color: rgb(243, 14, 14);
+    border:none;
+    height:35px;
+    color: whitesmoke;
+}
+.con
+{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    gap: 10px;
+}
+.text-con
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+.image-con img
+{
+   height: 380px;
+   width: 200px;
+   margin-right: 500px;
+}
+body{
+    background-color: black;
+}
